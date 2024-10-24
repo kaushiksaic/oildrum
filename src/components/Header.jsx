@@ -27,8 +27,8 @@ const Header = () => {
             <Link to='/services' className='nav-link'>Services</Link>
           </Nav>
           <div className='d-flex justify-content-end align-items-center  '>
-                  <a href='' className='ms-3 text-dark'><FaFacebookF style={{fontSize:20}} /></a>  
-                  <a href='' className='ms-3 text-dark'><FaInstagram style={{fontSize:20}} /></a>  
+                  <a href='https://www.facebook.com/people/Oil-Drum-Entertainment/61559403840880/?mibextid=LQQJ4d' target='_blank' className='ms-3 text-dark'><FaFacebookF style={{fontSize:20}} /></a>  
+                  <a href='https://www.instagram.com/oildrum_entertainment/?igsh=MTF6cGk1YmJqYTI5MA%3D%3D' target='_blank' className='ms-3 text-dark'><FaInstagram style={{fontSize:20}} /></a>  
                  <a href='' className='ms-3 text-dark'><FaXTwitter style={{fontSize:20}} /></a>   
                  <a href='' className='ms-3 text-dark'><FaYoutube style={{fontSize:20}} /></a>   
                   </div>

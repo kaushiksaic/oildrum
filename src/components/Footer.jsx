@@ -20,8 +20,8 @@ const Footer = () => {
           <div className='col-sm-4 text-center'>
             <h5 className='text-center mb-3'>Get in Touch</h5>
             <div className='d-flex justify-content-around align-items-center p-2' style={{background:'white',borderRadius:50}}>
-                  <a href='' className='text-dark'><FaFacebookF style={{fontSize:20}}  /></a>  
-                  <a href='' className='text-dark'><FaInstagram  style={{fontSize:20}} /></a>  
+                  <a href='https://www.facebook.com/people/Oil-Drum-Entertainment/61559403840880/?mibextid=LQQJ4d' target='_blank' className='text-dark'><FaFacebookF style={{fontSize:20}}  /></a>  
+                  <a href='https://www.instagram.com/oildrum_entertainment/?igsh=MTF6cGk1YmJqYTI5MA%3D%3D' target='_blank' className='text-dark'><FaInstagram  style={{fontSize:20}} /></a>  
                  <a href='' className='text-dark'><FaXTwitter style={{fontSize:20}} /></a>   
                  <a href='' className='text-dark'><FaYoutube style={{fontSize:20}} /></a>   
                   </div>

@@ -70,3 +70,7 @@ width: 250px;
     font-size: 30px;
     border-radius: 50%;
 }
+
+.lispc > li {
+  padding-bottom: 10px;
+}
