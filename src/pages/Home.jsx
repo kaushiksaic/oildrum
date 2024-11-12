@@ -1,11 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion';
 import Carousel from 'react-bootstrap/Carousel';
-import ban1 from '../assets/banners/banner1.jpg';
-import ban2 from '../assets/banners/banner2.jpg';
-import wed2 from '../assets/images/wed2.jpg';
-import corp from '../assets/images/corp.jpg';
-import social from '../assets/images/social.jpg';
 import b1 from '../assets/banners/b1.jpg';
 import b2 from '../assets/banners/b2.jpg';
 import b3 from '../assets/banners/b3.jpg';
@@ -17,6 +12,7 @@ import b8 from '../assets/banners/b8.jpg';
 import b9 from '../assets/banners/b9.jpg';
 import b10 from '../assets/banners/drum.png';
 import b11 from '../assets/banners/drumt.png';
+import vid from '../assets/vid.mp4';
 
 
 
@@ -36,7 +32,7 @@ const Home = () => {
           viewport={{once: true}}
           transition={{delay:0.2, x:{type:'spring',stiffness:60},opacity:{duration: 1},ease:"easeIn",duration: 1,}}
           className='mt-5 text-dark display-1'>Welcome to Oil Drum Entertainment</motion.h3>
-          <p className='mt-5 text-white'>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+           <p className='mt-5 h5 text-dark'>"Feel the Rhythm, Live the Beat."</p> 
           <motion.button 
           initial={{x:100,opacity:0}}
           whileInView={{x:0,opacity:1}}
@@ -49,7 +45,7 @@ const Home = () => {
       <img src={b2} className='d-block w-100' style={{opacity:'0.8'}} height={600} />
         <Carousel.Caption className='top-0 mt-5'>
           <h3 className='mt-5 text-dark display-1'>Welcome to Oil Drum Entertainment</h3>
-          <p className='mt-5 text-dark'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+           <p className='mt-5 h5 text-white'>"Drumming Up a World of Energy and Joy!"</p> 
           <button className='btn mt-5 px-3 py-2 fw-bolder display-1' style={{background:'#d4ae01'}}>CALL NOW</button>
         </Carousel.Caption>
       </Carousel.Item>
@@ -89,6 +85,24 @@ const Home = () => {
                 </div>
                 <div className='col-sm-12 text-center'>
                     <button className='btn btn-dark'>EXPLORE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section className='hsec'>
+        <div className='container'>
+            <div className='row'>
+                <div className='col-sm-12 text-center'>
+                <motion.h2 
+                     initial={{y:100,opacity:0}}
+                     whileInView={{y:0,opacity:1}}
+                     transition={{delay:0.2, y:{type:'spring',stiffness:30},opacity:{duration: 0.6},ease:"easeIn",duration: 1,}}
+                    className='text-center mb-5'>"Experience the Power of Drums: Where Beats Come Alive"
+                    </motion.h2>
+                    <video className='respvideo' src={vid} muted controls autoPlay loop >
+
+                    </video>
                 </div>
             </div>
         </div>
